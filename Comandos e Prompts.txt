@@ -1,1 +1,6 @@
+##*Criar o arquivo package.json (configuração do seu projeto, incluindo: nome, versão, descrição, scripts a serem executados, licença, etc)*
+npm init
+
+##*Criar novo aplicativo*
+npx create-next-app [project-name]
 
