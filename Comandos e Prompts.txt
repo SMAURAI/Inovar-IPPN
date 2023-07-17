@@ -4,3 +4,38 @@ npm init
 ##*Criar novo aplicativo*
 npx create-next-app [project-name]
 
+ATUALIZAR O APT-GET
+sudo apt-get update 
+
+INSTALAÇÃO DO DESCOMPACTADOR DE PACOTES GDEBI
+sudo apt install gdebi
+
+INSTALAÇÃO DO NODE.JS
+##*Instalação da aplicação principal*
+sudo apt install nodejs
+
+##*Instalação do NPM*
+sudo apt install npm
+
+INSTALAÇÃO DA VERSÃO MAIS ATUAL DO NODE.JS NO LINUX
+##*Limpar o cache*
+sudo npm cache clean -f
+
+##*Instalação do módulo n*
+sudo npm install -g n
+
+### *Versão Estável*
+sudo n stable
+
+INSTALAÇÃO DO VSCODE
+##*Criação do Repositório*
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+
+##*Instalação da chave do repositório do programa*
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+
+##*Comando para instalar o programa*
+sudo apt-get install code
+
+INSTALAÇÃO DO GIT
+sudo apt-get install git
