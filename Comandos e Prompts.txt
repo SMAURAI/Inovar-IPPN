@@ -6,6 +6,7 @@ npx create-next-app [project-name]
 
 ATUALIZAR O APT-GET
 sudo apt-get update
+sudo apt-get upgrade
 
 INSTALAÇÃO DO DESCOMPACTADOR DE PACOTES GDEBI
 sudo apt install gdebi
