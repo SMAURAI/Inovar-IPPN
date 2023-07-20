@@ -60,3 +60,20 @@ ps aux | grep -i dpkg
 
 MATAR PROCESSOS ESPECÍFICOS
 sudo kill {number}
+
+ADCIONAR USUÁRIO
+sudo adduser {novo_usuario}
+
+ALTERAR O USUÁRIO NO TERMINAL
+su {usuário}
+
+ATIVAR LOGIN SEM SENHA
+##*Comando para abrir arquivo de configuração*
+sudo gedit /etc/pam.d/gdm-password
+
+##*Linha de configuração (deve ser colocada no início)*
+auth sufficient pam_succeed_if.so user ingroup {usuário}
+
+REFERÊNCIAS
+https://wime.com.br/2013/06/06/como-adicionar-e-excluir-usuarios-no-ubuntu-12-04-e-centos-6/
+https://sobrelinux.info/questions/13452/failed-to-create-user-due-to-regular-expression-error
