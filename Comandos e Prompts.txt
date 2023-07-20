@@ -5,10 +5,24 @@ npm init
 npx create-next-app [project-name]
 
 ATUALIZAR O APT-GET
-sudo apt-get update 
+sudo apt-get update
 
 INSTALAÇÃO DO DESCOMPACTADOR DE PACOTES GDEBI
 sudo apt install gdebi
+
+INSTALAÇÃO E VERIFICAÇÃO DA INSTALAÇÃO DO WGET
+##*Verificação da Instalação*
+wget --version
+
+##*Instalação da aplicação*
+sudo apt install wget
+
+INSTALAÇÃO DO CHROME
+##*Baixar pacote Chrome*
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+##*Instalar pacote Chrome*
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 INSTALAÇÃO DO NODE.JS
 ##*Instalação da aplicação principal*
