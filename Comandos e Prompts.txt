@@ -80,6 +80,11 @@ sudo apt-get update
 sudo apt-get install apache2 php libapache2-mod-php
 sudo apt-get install php-soap php-xml php-curl php-opcache php-gd php-sqlite3 php-mbstring
 
+DESBLOQUEAR A PASTA WWW PARA EDIÇÃO
+cd /var
+ls
+sudo chmod 777 -R www
+
 INSTALANDO O SISTEMA MYSQL
 sudo apt update
 sudo apt install mysql-server
@@ -89,3 +94,4 @@ REFERÊNCIAS
 https://wime.com.br/2013/06/06/como-adicionar-e-excluir-usuarios-no-ubuntu-12-04-e-centos-6/
 https://sobrelinux.info/questions/13452/failed-to-create-user-due-to-regular-expression-error
 https://github.com/ufrgs/spell
+https://www.yiiframework.com/download
