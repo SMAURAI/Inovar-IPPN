@@ -83,3 +83,4 @@ sudo apt-get install php-soap php-xml php-curl php-opcache php-gd php-sqlite3 ph
 REFERÊNCIAS
 https://wime.com.br/2013/06/06/como-adicionar-e-excluir-usuarios-no-ubuntu-12-04-e-centos-6/
 https://sobrelinux.info/questions/13452/failed-to-create-user-due-to-regular-expression-error
+https://github.com/ufrgs/spell
