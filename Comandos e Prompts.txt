@@ -39,7 +39,7 @@ sudo npm cache clean -f
 ##*Instalação do módulo n*
 sudo npm install -g n
 
-### *Versão Estável*
+##*Versão Estável*
 sudo n stable
 
 INSTALAÇÃO DO VSCODE
@@ -73,6 +73,12 @@ sudo gedit /etc/pam.d/gdm-password
 
 ##*Linha de configuração (deve ser colocada no início)*
 auth sufficient pam_succeed_if.so user ingroup {usuário}
+
+INSTALANDO O SISTEMA PHP
+##*Instalando pacotes de PHP*
+sudo apt-get update
+sudo apt-get install apache2 php libapache2-mod-php
+sudo apt-get install php-soap php-xml php-curl php-opcache php-gd php-sqlite3 php-mbstring
 
 REFERÊNCIAS
 https://wime.com.br/2013/06/06/como-adicionar-e-excluir-usuarios-no-ubuntu-12-04-e-centos-6/
