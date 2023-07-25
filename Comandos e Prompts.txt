@@ -97,3 +97,4 @@ https://github.com/ufrgs/spell
 https://www.yiiframework.com/download
 https://www.php.com.br/instalacao-php-linux
 https://kanboard.org/
+https://www.jetbrains.com/pt-br/idea/
